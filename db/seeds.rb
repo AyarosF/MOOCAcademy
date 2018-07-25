@@ -9,7 +9,7 @@
 
 
 Course.create(title: "Maths", description: "Les mathématiques, c'est fantastique")
-Lesson.create(1, title: "Théorème de Pythagore", body: "Si ABC est un triangle rectangle en A, alors BC² =AB² + AC²", course_id: Course.find(1).id)
+Lesson.create(title: "Théorème de Pythagore", body: "Si ABC est un triangle rectangle en A, alors BC² =AB² + AC²", course_id: Course.find(1).id)
 
 subjects = ["SVT", "Français", "Anglais", "Allemand", "Physique-Chimie", "Informatique", "Histoire", "Espagnol", "Botanique", "Droit", "Philosophie"]
 subjects.each do |subject|
