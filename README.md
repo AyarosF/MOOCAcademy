@@ -1,24 +1,23 @@
-# README
+# MOOCAcademy - projet THP 25 juillet 2018
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Après avoir cloné le repo
 
-Things you may want to cover:
+Pour créer la BDD, faire :
+- **bundle install**
+- **rails db:migrate**
+- **rails db:seed*
 
-* Ruby version
+## Le contenu
 
-* System dependencies
+A été créée une base de données, avec une application rails, en utilisant la gem ActiveRecord.
 
-* Configuration
+### Le projet
 
-* Database creation
+Une plateforme d'apprentissage en ligne.
+- Il y a plein de cours.
+- Chaque cours a un titre et une description.
+- Chaque cours a plusieurs leçons, qui ont un titre et un body
 
-* Database initialization
+## La team
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Ce programme est made in Strasbourg, by Soraya FRUCTUOSO, Samaneh VAEZI, Hugo PAYET avec amour ! Bonne correction les amis :kissing_heart:
