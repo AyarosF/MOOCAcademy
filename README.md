@@ -3,9 +3,9 @@
 ## Après avoir cloné le repo
 
 Pour créer la BDD, faire :
-- **bundle install**
-- **rails db:migrate**
-- **rails db:seed**
+- `bundle install`
+- `rails db:migrate`
+- `rails db:seed`
 
 ## Le contenu
 
