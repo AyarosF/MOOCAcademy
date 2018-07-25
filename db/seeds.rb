@@ -11,13 +11,10 @@
 Course.create(title: "Maths", description: "Les mathématiques, c'est fantastique")
 Lesson.create(1, title: "Théorème de Pythagore", body: "Si ABC est un triangle rectangle en A, alors BC² =AB² + AC²", course_id: Course.find(1).id)
 
-
-
-
-  subjects = ["SVT", "Français", "Anglais", "Allemand", "Physique-Chimie", "Informatique", "Histoire", "Espagnol", "Botanique", "Droit", "Philosophie"]
-  subjects.each do |subject|
-    Course.create(title: "#{subject}", description: "Inscrivez-vous à ce cours formidable, du fun en perspective !" )
-  end
+subjects = ["SVT", "Français", "Anglais", "Allemand", "Physique-Chimie", "Informatique", "Histoire", "Espagnol", "Botanique", "Droit", "Philosophie"]
+subjects.each do |subject|
+  Course.create(title: "#{subject}", description: "Inscrivez-vous à ce cours formidable, du fun en perspective !" )
+end
 
 for i in 2..50
   Lesson.create(title: "Leçon #{i}", body: "Grâce à moi vous allez apprendre plein de choses")
